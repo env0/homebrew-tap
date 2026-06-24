@@ -4,23 +4,23 @@ cask "env0" do
 
   on_macos do
     on_intel do
-      sha256 "b4296d0b73bad8b65880a531d9f174c02677af9d7125a75f042f8daec586d660"
-      url "https://github.com/env0/integrations/releases/download/cli-v#{version}/env0_#{version}_darwin_amd64.tar.gz"
+      sha256 "77eeac22890599a12f0bb0ca45d4962db663fa4fb5186c43d42f3f42a00ce719"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v#{version}/env0_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0d3c58ada6d4f2d6493ab0ffd19e628cda8305db2ac6e9e362320216456684a4"
-      url "https://github.com/env0/integrations/releases/download/cli-v#{version}/env0_#{version}_darwin_arm64.tar.gz"
+      sha256 "13fb62fc362e5d80e96d409892a1a0ab54860f05de2aadbc98912f1f284cb75b"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v#{version}/env0_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "1982d64b1553d985f37a91cebeaeec95b5b811f4aee6a7b3345348f0ff464159"
-      url "https://github.com/env0/integrations/releases/download/cli-v#{version}/env0_#{version}_linux_amd64.tar.gz"
+      sha256 "acf06462cd5589895bdd91f012da7e11e6c1f33b04714be7031fd69cf3db3f23"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v#{version}/env0_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "e4a36a9fce9a1f3ddeaf5dd4671499ff43d6e9f61229c1928312a902cc39597e"
-      url "https://github.com/env0/integrations/releases/download/cli-v#{version}/env0_#{version}_linux_arm64.tar.gz"
+      sha256 "e851e9e00d4edac181f882f9de180f313868a0e90dc29dfec65f2d5060f0ef4b"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v#{version}/env0_#{version}_linux_arm64.tar.gz"
     end
   end
 
