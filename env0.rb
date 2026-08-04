@@ -5,20 +5,20 @@
 class Env0 < Formula
   desc "The env0 CLI"
   homepage "https://www.env0.com"
-  version "2.2.0"
+  version "2.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.2.0/env0_2.2.0_darwin_amd64.tar.gz"
-      sha256 "6686984ca2f2e35727bb053a992617044d630523bee6d3e12f6034f429740ddb"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.3.0/env0_2.3.0_darwin_amd64.tar.gz"
+      sha256 "394014910e6c551a117f2f815c4aa12b955ac4d52ac3b768ff4cfe70f073556a"
 
       define_method(:install) do
         bin.install "env0"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.2.0/env0_2.2.0_darwin_arm64.tar.gz"
-      sha256 "3603ae150d2fe1b1911fb7aae9512f31d66b67a12b6ccf3cae773a1a9480aeec"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.3.0/env0_2.3.0_darwin_arm64.tar.gz"
+      sha256 "9427583efd59b9f5797f1435e7edd9faf96e0de244a4e4832c1e64b8a2198c1c"
 
       define_method(:install) do
         bin.install "env0"
@@ -28,15 +28,15 @@ class Env0 < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.2.0/env0_2.2.0_linux_amd64.tar.gz"
-      sha256 "43969c07545f251ea66c697d3a92dcea2e488db6143af5650d6999ba1bc6c347"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.3.0/env0_2.3.0_linux_amd64.tar.gz"
+      sha256 "51c4f973c3e76a3f60264bd2e6a0530f4cb39a8927b5e5facb91064dfc53722c"
       define_method(:install) do
         bin.install "env0"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.2.0/env0_2.2.0_linux_arm64.tar.gz"
-      sha256 "a788bf04a40e5e25a2d3072dde1823d377e29781686df8d732bab7ded7df3fb4"
+      url "https://github.com/env0/homebrew-tap/releases/download/cli-v2.3.0/env0_2.3.0_linux_arm64.tar.gz"
+      sha256 "864c05e76f0115bb0366f344de19724e647b291af48b195df9afbd2efb0cfd5f"
       define_method(:install) do
         bin.install "env0"
       end
